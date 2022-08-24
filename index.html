@@ -21,29 +21,17 @@
 							<div class="col-12">
 
 								<!-- Logo -->
-									<h1><a href="index.html" id="logo">Categories</a></h1>
+									<div class="dropdown">
+  <button class="dropbtn">Categories</button>
+  <div class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div>
+								
 
 
-       <link rel="stylesheet" href="style2.css">
-    <body>
-        <div class="container">
-            <button class="click">Click Me</button>
-            <div class="list">
-                <button class="links">Link 1</button>
-                <button class="links">Link 2</button>
-                <button class="links">Link 3</button>
-                <button class="links">Link 4</button>
-                <button class="links">Link 5</button>
-            </div>
-        </div>
-        <script>
-            let click = document.querySelector('.click');
-            let list = document.querySelector('.list');
-            click.addEventListener("click",()=>{
-                list.classList.toggle('newlist');
-            });
-        </script>
-    </body>
 
 								<!-- Nav -->
 									<nav id="nav">
